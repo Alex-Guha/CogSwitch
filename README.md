@@ -1,6 +1,9 @@
 # CogSwitch
 Cognitive Switching in LLMs, by Alex Guha, Peter Mousses, Ryan Skabelund, and Yonatan Rosenbloom
 
+## Dataset
+https://huggingface.co/datasets/Alex-Guha/CogSwitch-GridPuzzle-Reasoning
+
 ## Problem Statement
 Inspired by how humans switch between thinking, talking, reading, and remembering, this project introduces Cognitive Switching in LLMs, where special tokens guide the generation mode to improve attention and output. A causal model is finetuned with these tokens, which act as delimiters to indicate the desired type of generation, enabling more effective guidance during inference.
 
