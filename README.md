@@ -10,9 +10,9 @@ To investigate this approach, we use GPT-4o-mini to convert the GridPuzzle datas
 3) explaining the derived conclusions.
 
 Accordingly, we introduce three special tokens to facilitate generation in this paradigm:
-- <recall> for extracting immediately relevant context
-- <think> for performing reasoning and providing new insights
-- <generate> for summarizing findings and explaining conclusions. These are converted into discrete tokens within the tokenizer.
+- `<recall>` for extracting immediately relevant context
+- `<think>` for performing reasoning and providing new insights
+- `<generate>` for summarizing findings and explaining conclusions. These are converted into discrete tokens within the tokenizer.
 
 To evaluate this approach, we compare Llama-3-8B finetuned on the converted dataset against no finetuning, and evaluate whether the inclusion of these tokens improves the model's ability to generate outputs aligned with specific requirements, thereby enhancing efficiency and control in text generation tasks.
 
